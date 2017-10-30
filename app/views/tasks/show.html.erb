@@ -1,7 +1,10 @@
 <h1>詳細ページ</h1>
 
- <p>
+ <p>タスク:
 <%= @task.content %>
+ </p>
+  <p>状態:
+<%= @task.status %>
  </p>
  
  <%= link_to '一覧に戻る', tasks_path %>
